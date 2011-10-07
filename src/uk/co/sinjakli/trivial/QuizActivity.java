@@ -146,7 +146,7 @@ public class QuizActivity extends Activity {
 			}
 		} catch (final IOException e) {
 			Log.e(TAG, "IOException while reading questions from file.", e); // Dev String
-			Toast.makeText(getApplicationContext(), getResources().getString(R.string.question_reading_exception), Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), getResources().getString(R.string.question_reading_exception), Toast.LENGTH_SHORT).show();
 		}
 		return questions;
 	}
