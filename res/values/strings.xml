@@ -54,5 +54,8 @@
         <item quantity="one">1 question could not be parsed, and has been logged. Please send the developer a bug report including log output.</item>
         <item quantity="other">%1$d questions could not be parsed, and have been logged. Please send the developer a bug report including log output.</item>
     </plurals>
+    
+    <!-- Menu strings -->
+    <string name="menu_restart">New game</string>
 
 </resources>

@@ -58,7 +58,6 @@
 			android:maxLines="1"
 			android:layout_centerVertical="true"
 			android:layout_marginLeft="10dip"
-			android:width="50dip"
 			android:digits="0123456789"
 			android:inputType="number"
 			android:imeOptions="actionDone"></EditText>
